@@ -10,7 +10,7 @@ function App() {
     <main>
       <div className='flex bg-white p-1 rounded-lg w-2/3 h-5/6 relative gap-1'>
         <FormLogin />
-          <InfoLogin />
+        <InfoLogin />
       </div>
     </main>
     </>
