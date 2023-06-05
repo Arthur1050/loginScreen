@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        'bolder': '0px 0px 9px rgb(0 0 0 / 0.75)'
+      }
+    },
   },
   plugins: [],
 }
