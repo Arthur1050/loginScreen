@@ -2,6 +2,16 @@
   background-color: #242424;
 }
 
+*::-webkit-scrollbar {
+  width: .35rem;
+  background-color: #a78bfa;
+  border-radius: 1rem;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #6B46C1;
+  border-radius: 1rem;
+}
+
 main {
   max-width: 1280px;
   margin: 0 auto;
