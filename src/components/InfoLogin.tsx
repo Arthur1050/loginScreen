@@ -1,3 +1,4 @@
+import SlideComents from "./SlideComents";
 import SobreNos from "./SobreNos";
 
 export default function InfoLogin() {
@@ -9,6 +10,7 @@ export default function InfoLogin() {
             <img className="absolute select-none opacity-10 drop-shadow-bolder w-2/3 -rotate-45 -translate-x-1/4 -translate-y-1/4" src="/src/assets/svg/planet.svg" alt="planet.svg" />
             <img className="absolute select-none opacity-10 drop-shadow-bolder w-1/4 right-6 top-4" src="/src/assets/svg/satellite.svg" alt="satellite.svg" />
             <SobreNos />
+            <SlideComents />
         </div>
         </>
     )
