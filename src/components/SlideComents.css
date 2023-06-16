@@ -1,0 +1,9 @@
+.carroflex {
+    animation: slideToLeft 5s infinite linear;
+}
+
+@keyframes slideToLeft {
+    100% {
+        transform: translateX(-100%);
+    }
+}
