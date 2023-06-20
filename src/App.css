@@ -18,9 +18,10 @@ main {
   padding: 1rem;
   text-align: center;
   height: 100vh;
-  display: grid !important;
-  place-items: center;
+  display: flex !important;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 

@@ -1,7 +1,7 @@
 export default function SobreNos() {
     return (
         <div className="text-left border border-violet-500/50 text-gray-100 bg-violet-500/50 rounded-lg p-2 relative">
-            <div className="overflow-auto h-64 indent-3">
+            <div className="overflow-auto h-64 indent-3 text-sm">
                 <span className="text-2xl font-semibold mb-1 block">Sobre Nos</span>
                 <p>Bem-vindo ao nosso site de vendas! Somos uma plataforma especializada em dropshipping, uma forma de comércio eletrônico que permite a você vender produtos sem a necessidade de estoque físico. Aqui, oferecemos uma ampla variedade de produtos de alta qualidade, selecionados com cuidado para atender às suas necessidades e interesses.</p>
                 <p>Nossa plataforma é projetada para simplificar o processo de vendas online. Com apenas alguns cliques, você pode escolher os produtos que deseja vender em sua própria loja virtual e nós cuidamos do resto. Trabalhamos em parceria com fornecedores confiáveis, que lidam com o armazenamento, embalagem e envio dos produtos diretamente para seus clientes.</p>

@@ -1,5 +1,7 @@
-.carroflex {
-    animation: slideToLeft 5s infinite linear;
+.carroflex,
+.carroflex2 {
+    animation: slideToLeft 45s infinite linear;
+    flex: 0 0 auto;
 }
 
 @keyframes slideToLeft {
