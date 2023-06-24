@@ -1,11 +1,12 @@
 import { Button} from "@chakra-ui/react";
 
 interface SecondaryButtonInterface {
-    text: string
+    text: string,
+    onclick?: () => void
 }
 
-export default function SecondaryButton({text} : SecondaryButtonInterface) {
+export default function SecondaryButton({text, onclick} : SecondaryButtonInterface) {
     return (
-        <Button colorScheme='purple' variant='outline'>{text}</Button>    
+        <Button colorScheme='purple' onClick={onclick} variant='outline'>{text}</Button>    
     )
 } 

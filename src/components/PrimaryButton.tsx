@@ -1,11 +1,12 @@
 import { Button} from "@chakra-ui/react";
 
 interface PrimaryButtonInterface {
-    text: string
+    text: string,
+    onclick?: () => void
 }
 
-export default function PrimaryButton({text} : PrimaryButtonInterface) {
+export default function PrimaryButton({text, onclick} : PrimaryButtonInterface) {
     return (
-        <Button colorScheme='purple'>{text}</Button>    
+        <Button colorScheme='purple' onClick={onclick}>{text}</Button>    
     )
 } 

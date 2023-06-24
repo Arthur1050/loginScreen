@@ -1,0 +1,7 @@
+.infoLogin {
+    transition: .35s all;
+}
+
+.infoLogin.moveLeft {
+    transform: translateX(calc(-100% + 0.5rem));
+}

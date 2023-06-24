@@ -14,7 +14,7 @@ export default function InputPassword({name, value, onChange, label} : InputPass
 
     return (
         <div className="flex flex-col items-start">
-            <label className="-mb-1 text-sm font-semibold text-zinc-700" htmlFor={name}>{label}</label>
+            <label className="-mb-1 text-xs font-semibold text-zinc-700" htmlFor={name}>{label}</label>
             <InputGroup>
                 <Input focusBorderColor="purple.500" type={show ? 'text' : 'password'} variant='flushed' id={name} name={name} value={value} onChange={onChange}/>
                 <InputRightElement width='4.5rem'>
