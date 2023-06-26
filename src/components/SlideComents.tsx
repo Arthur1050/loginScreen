@@ -42,7 +42,7 @@ export default function SlideComents() {
         )
     };
     return (
-        <div className='flex-auto py-1 relative'>
+        <div className='flex-auto flex-grow-0 py-1 relative'>
             <div className='flex'>
                 <div className="carroflex flex gap-1 pr-1 h-full text-left">
                     {comments.map((comment, i) => (commentCard(comment, i)))}

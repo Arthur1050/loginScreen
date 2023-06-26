@@ -2,6 +2,10 @@
   font-family: 'Rubik-Regular';
   src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf');
 }
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
+}
 
 #root {
   font-family: 'Rubik-Regular';
